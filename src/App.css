@@ -1,0 +1,19 @@
+:root {
+  --mantine-font-family-headings: "M PLUS Rounded 1c", Arial, sans-serif;
+  --mantine-h1-font-weight: 900;
+}
+
+#root {
+  padding: 20px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "M PLUS Rounded 1c", Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.mantine-Badge {
+  user-select: none;
+}
