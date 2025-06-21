@@ -1,0 +1,690 @@
+[
+  {
+    "id": "kenney-assets",
+    "title": "Kenney's Game Assets",
+    "description": "A collection of free game assets.",
+    "url": "https://www.kenney.nl/",
+    "image": "https://64.media.tumblr.com/03412bbed4b2093cd5b8410ffca141ad/tumblr_ovqahxG3aO1th5bfvo1_1280.png",
+    "tags": ["gamedev", "free"]
+  },
+  {
+    "id": "mantine",
+    "title": "Mantine",
+    "description": "A React UI component library with many items.",
+    "url": "https://mantine.dev/",
+    "image": "https://miro.medium.com/v2/resize:fit:1400/1*faSvT2rE67paB7VALQLvyA.png",
+    "tags": ["react", "ui", "free", "OSS"]
+  },
+  {
+    "id": "aseprite",
+    "title": "Aseprite",
+    "description": "A pixel art tool for creating 2D animations and sprites.",
+    "url": "https://www.aseprite.org/",
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/431730/capsule_616x353.jpg?t=1749680273",
+    "tags": ["art", "gamedev", "paid", "OSS"]
+  },
+  {
+    "id": "visual-studio-code",
+    "title": "Visual Studio Code",
+    "description": "A powerful code editor with support for many languages.",
+    "url": "https://code.visualstudio.com/",
+    "image": "https://learn.microsoft.com/en-us/shows/visual-studio-code/media/visual-studio-code-banner-image.jpg",
+    "tags": ["IDE", "free"]
+  },
+  {
+    "id": "unity",
+    "title": "Unity",
+    "description": "A cross-platform game engine for creating 2D and 3D games.",
+    "url": "https://unity.com/",
+    "image": "https://dotnet.microsoft.com/blob-assets/images/illustrations/unity/unity-engine-landscape-swimlane.png",
+    "tags": ["gamedev", "free tier"]
+  },
+  {
+    "id": "blender",
+    "title": "Blender",
+    "description": "An open-source 3D creation suite.",
+    "url": "https://www.blender.org/",
+    "image": "https://i.ebayimg.com/images/g/L4EAAOSwT-VnXWaP/s-l1200.jpg",
+    "tags": ["art", "gamedev", "free", "OSS"]
+  },
+  {
+    "id": "figma",
+    "title": "Figma",
+    "description": "Collaborative interface design tool.",
+    "url": "https://figma.com/",
+    "image": "https://cdn.sanity.io/images/599r6htc/localized/7b1e2e2e7e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e-figma-logo.png",
+    "tags": ["ui", "design", "free tier"]
+  },
+  {
+    "id": "github",
+    "title": "GitHub",
+    "description": "Code hosting platform for version control and collaboration.",
+    "url": "https://github.com/",
+    "image": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+    "tags": ["OSS", "collaboration", "free tier"]
+  },
+  {
+    "id": "notion",
+    "title": "Notion",
+    "description": "All-in-one workspace for notes, tasks, wikis, and databases.",
+    "url": "https://notion.so/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Notion_app_logo.png",
+    "tags": ["productivity", "notes", "free tier"]
+  },
+  {
+    "id": "obsidian",
+    "title": "Obsidian",
+    "description": "A powerful knowledge base that works on top of a local folder of plain text Markdown files.",
+    "url": "https://obsidian.md/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Obsidian_icon.png",
+    "tags": ["notes", "productivity", "free"]
+  },
+  {
+    "id": "canva",
+    "title": "Canva",
+    "description": "Online design and publishing tool.",
+    "url": "https://canva.com/",
+    "image": "https://static.canva.com/static/images/canva_logo.png",
+    "tags": ["design", "art", "free tier"]
+  },
+  {
+    "id": "postman",
+    "title": "Postman",
+    "description": "API platform for building and using APIs.",
+    "url": "https://postman.com/",
+    "image": "https://assets.getpostman.com/common-share/postman-logo-horizontal-320x132.png",
+    "tags": ["api", "testing", "free tier"]
+  },
+  {
+    "id": "docker",
+    "title": "Docker",
+    "description": "Platform for developing, shipping, and running applications in containers.",
+    "url": "https://www.docker.com/",
+    "image": "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
+    "tags": ["devops", "OSS", "free tier"]
+  },
+  {
+    "id": "vercel",
+    "title": "Vercel",
+    "description": "Frontend cloud platform for static sites and Serverless Functions.",
+    "url": "https://vercel.com/",
+    "image": "https://assets.vercel.com/image/upload/front/favicon/vercel/180x180.png",
+    "tags": ["hosting", "free tier"]
+  },
+  {
+    "id": "netlify",
+    "title": "Netlify",
+    "description": "Platform for automating modern web projects.",
+    "url": "https://netlify.com/",
+    "image": "https://www.netlify.com/v3/img/components/logomark.png",
+    "tags": ["hosting", "free tier"]
+  },
+  {
+    "id": "supabase",
+    "title": "Supabase",
+    "description": "Open source Firebase alternative.",
+    "url": "https://supabase.com/",
+    "image": "https://supabase.com/_next/static/media/supabase-logo-icon.6f0a5e6e.png",
+    "tags": ["database", "OSS", "free tier"]
+  },
+  {
+    "id": "figjam",
+    "title": "FigJam",
+    "description": "Online whiteboard for teams to ideate and brainstorm together.",
+    "url": "https://figma.com/figjam/",
+    "image": "https://cdn.sanity.io/images/599r6htc/localized/7b1e2e2e7e2e2e2e2e2e2e2e2e2e2e2e2e2e2e2e-figjam-logo.png",
+    "tags": ["ui", "design", "collaboration", "free tier"]
+  },
+  {
+    "id": "drawio",
+    "title": "draw.io",
+    "description": "Free online diagram software for making flowcharts, process diagrams, etc.",
+    "url": "https://app.diagrams.net/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Diagrams.net_logo.svg",
+    "tags": ["ui", "design", "free"]
+  },
+  {
+    "id": "gimp",
+    "title": "GIMP",
+    "description": "GNU Image Manipulation Program, a free and open-source raster graphics editor.",
+    "url": "https://www.gimp.org/",
+    "image": "https://www.gimp.org/images/frontpage/wilber-big.png",
+    "tags": ["art", "OSS", "free"]
+  },
+  {
+    "id": "krita",
+    "title": "Krita",
+    "description": "A free and open-source raster graphics editor designed primarily for digital painting and animation.",
+    "url": "https://krita.org/",
+    "image": "https://krita.org/wp-content/uploads/2016/05/krita-128.png",
+    "tags": ["art", "OSS", "free"]
+  },
+  {
+    "id": "slack",
+    "title": "Slack",
+    "description": "Business communication platform offering chat rooms, direct messaging, and integrations.",
+    "url": "https://slack.com/",
+    "image": "https://a.slack-edge.com/80588/marketing/img/icons/icon_slack_hash_colored.png",
+    "tags": ["collaboration", "free tier"]
+  },
+  {
+    "id": "discord",
+    "title": "Discord",
+    "description": "Voice, video, and text communication service used by communities and teams.",
+    "url": "https://discord.com/",
+    "image": "https://cdn.worldvectorlogo.com/logos/discord-6.svg",
+    "tags": ["collaboration", "free"]
+  },
+  {
+    "id": "trello",
+    "title": "Trello",
+    "description": "Web-based, Kanban-style, list-making application and productivity tool.",
+    "url": "https://trello.com/",
+    "image": "https://cdn.worldvectorlogo.com/logos/trello.svg",
+    "tags": ["productivity", "free tier"]
+  },
+  {
+    "id": "jira",
+    "title": "Jira",
+    "description": "Proprietary issue tracking product developed by Atlassian.",
+    "url": "https://www.atlassian.com/software/jira",
+    "image": "https://wac-cdn.atlassian.com/dam/jcr:813202b2-6c7e-4b7e-8e2e-2b6b6b6b6b6b/jira-software-logo-gradient-blue.svg",
+    "tags": ["productivity", "paid"]
+  },
+  {
+    "id": "firebase",
+    "title": "Firebase",
+    "description": "Platform developed by Google for creating mobile and web applications.",
+    "url": "https://firebase.google.com/",
+    "image": "https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png",
+    "tags": ["database", "hosting", "free tier"]
+  },
+  {
+    "id": "piskel",
+    "title": "Piskel",
+    "description": "Free online editor for animated sprites & pixel art.",
+    "url": "https://www.piskelapp.com/",
+    "image": "https://www.piskelapp.com/static/resources/logo.png",
+    "tags": ["art", "gamedev", "free"]
+  },
+  {
+    "id": "tiled",
+    "title": "Tiled Map Editor",
+    "description": "Free, open-source, easy to use, and flexible level editor.",
+    "url": "https://www.mapeditor.org/",
+    "image": "https://www.mapeditor.org/img/logo.png",
+    "tags": ["gamedev", "OSS", "free"]
+  },
+  {
+    "id": "bevy",
+    "title": "Bevy",
+    "description": "A refreshingly simple data-driven game engine built in Rust.",
+    "url": "https://bevyengine.org/",
+    "image": "https://bevyengine.org/assets/icon.png",
+    "tags": ["gamedev", "OSS", "free"]
+  },
+  {
+    "id": "godot",
+    "title": "Godot Engine",
+    "description": "Feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface.",
+    "url": "https://godotengine.org/",
+    "image": "https://godotengine.org/themes/godotengine/assets/press/icon_color.png",
+    "tags": ["gamedev", "OSS", "free"]
+  },
+  {
+    "id": "inkscape",
+    "title": "Inkscape",
+    "description": "Professional vector graphics editor for Linux, Windows and macOS.",
+    "url": "https://inkscape.org/",
+    "image": "https://inkscape.org/gallery/item/7307/inkscape-plain.png",
+    "tags": ["art", "OSS", "free"]
+  },
+  {
+    "id": "audacity",
+    "title": "Audacity",
+    "description": "Free, open source, cross-platform audio software.",
+    "url": "https://www.audacityteam.org/",
+    "image": "https://www.audacityteam.org/images/audacity-logo.png",
+    "tags": ["audio", "OSS", "free"]
+  },
+  {
+    "id": "reaper",
+    "title": "REAPER",
+    "description": "Complete digital audio production application for computers.",
+    "url": "https://www.reaper.fm/",
+    "image": "https://www.reaper.fm/reaper-logo.png",
+    "tags": ["audio", "paid"]
+  },
+  {
+    "id": "vscodium",
+    "title": "VSCodium",
+    "description": "Free/Libre Open Source Software Binaries of VS Code.",
+    "url": "https://vscodium.com/",
+    "image": "https://vscodium.com/logo.png",
+    "tags": ["IDE", "OSS", "free"]
+  },
+  {
+    "id": "zotero",
+    "title": "Zotero",
+    "description": "Free, easy-to-use tool to help you collect, organize, cite, and share research.",
+    "url": "https://www.zotero.org/",
+    "image": "https://www.zotero.org/static/images/logo-zotero.png",
+    "tags": ["productivity", "OSS", "free"]
+  },
+  {
+    "id": "quarto",
+    "title": "Quarto",
+    "description": "Open-source scientific and technical publishing system built on Pandoc.",
+    "url": "https://quarto.org/",
+    "image": "https://quarto.org/images/logo/quarto-logo.svg",
+    "tags": ["docs", "OSS", "free"]
+  },
+  {
+    "id": "typora",
+    "title": "Typora",
+    "description": "A minimal markdown editor, providing seamless experience for both markdown readers and writers.",
+    "url": "https://typora.io/",
+    "image": "https://typora.io/img/icon/typora-256.png",
+    "tags": ["notes", "paid"]
+  },
+  {
+    "id": "joplin",
+    "title": "Joplin",
+    "description": "Open source note taking and to-do application with synchronisation capabilities.",
+    "url": "https://joplinapp.org/",
+    "image": "https://joplinapp.org/images/Icon512.png",
+    "tags": ["notes", "OSS", "free tier"]
+  },
+  {
+    "id": "excalidraw",
+    "title": "Excalidraw",
+    "description": "Virtual whiteboard for sketching hand-drawn like diagrams.",
+    "url": "https://excalidraw.com/",
+    "image": "https://excalidraw.com/favicon-32x32.png",
+    "tags": ["ui", "design", "free"]
+  },
+  {
+    "id": "carbon",
+    "title": "Carbon",
+    "description": "Create and share beautiful images of your source code.",
+    "url": "https://carbon.now.sh/",
+    "image": "https://carbon.now.sh/favicon.ico",
+    "tags": ["ui", "free"]
+  },
+  {
+    "id": "asciinema",
+    "title": "asciinema",
+    "description": "Record and share your terminal sessions, the right way.",
+    "url": "https://asciinema.org/",
+    "image": "https://asciinema.org/a/109463.png",
+    "tags": ["devops", "OSS", "free"]
+  },
+  {
+    "id": "glitch",
+    "title": "Glitch",
+    "description": "The friendly community where everyone can discover & create the best apps on the web.",
+    "url": "https://glitch.com/",
+    "image": "https://glitch.com/favicon.ico",
+    "tags": ["hosting", "free tier"]
+  },
+  {
+    "id": "neocities",
+    "title": "Neocities",
+    "description": "Create your own free website. Unlimited creativity, zero ads.",
+    "url": "https://neocities.org/",
+    "image": "https://neocities.org/img/neocitieslogo.svg",
+    "tags": ["hosting", "free"]
+  },
+  {
+    "id": "sourcehut",
+    "title": "SourceHut",
+    "description": "A collection of tools for software development, including git hosting, CI, mailing lists, and more.",
+    "url": "https://sourcehut.org/",
+    "image": "https://sourcehut.org/static/logo.svg",
+    "tags": ["OSS", "collaboration", "free tier"]
+  },
+  {
+    "id": "codeberg",
+    "title": "Codeberg",
+    "description": "Non-profit, privacy-friendly, open-source code hosting platform.",
+    "url": "https://codeberg.org/",
+    "image": "https://codeberg.org/assets/img/logo.svg",
+    "tags": ["OSS", "collaboration", "free"]
+  },
+  {
+    "id": "gitea",
+    "title": "Gitea",
+    "description": "A painless self-hosted Git service.",
+    "url": "https://gitea.io/",
+    "image": "https://gitea.io/images/gitea.png",
+    "tags": ["OSS", "collaboration", "free"]
+  },
+  {
+    "id": "logseq",
+    "title": "Logseq",
+    "description": "Privacy-first, open-source knowledge base that works on top of local plain-text Markdown and Org-mode files.",
+    "url": "https://logseq.com/",
+    "image": "https://logseq.com/img/logo.svg",
+    "tags": ["notes", "OSS", "free"]
+  },
+  {
+    "id": "tana",
+    "title": "Tana",
+    "description": "A new kind of productivity tool for networked thought.",
+    "url": "https://tana.inc/",
+    "image": "https://tana.inc/favicon.ico",
+    "tags": ["notes", "productivity", "free tier"]
+  },
+  {
+    "id": "obsproject",
+    "title": "OBS Studio",
+    "description": "Free and open source software for video recording and live streaming.",
+    "url": "https://obsproject.com/",
+    "image": "https://obsproject.com/assets/images/new_icon_small.png",
+    "tags": ["video", "OSS", "free"]
+  },
+  {
+    "id": "shotcut",
+    "title": "Shotcut",
+    "description": "Free, open source, cross-platform video editor.",
+    "url": "https://shotcut.org/",
+    "image": "https://shotcut.org/images/shotcut-logo-128.png",
+    "tags": ["video", "OSS", "free"]
+  },
+  {
+    "id": "olivevideo",
+    "title": "Olive Video Editor",
+    "description": "Free, open-source video editor for professionals.",
+    "url": "https://www.olivevideoeditor.org/",
+    "image": "https://www.olivevideoeditor.org/images/logo.png",
+    "tags": ["video", "OSS", "free"]
+  },
+  {
+    "id": "kdenlive",
+    "title": "Kdenlive",
+    "description": "Free and open source video editor.",
+    "url": "https://kdenlive.org/",
+    "image": "https://kdenlive.org/wp-content/uploads/2019/02/kdenlive-logo.png",
+    "tags": ["video", "OSS", "free"]
+  },
+  {
+    "id": "pico8",
+    "title": "PICO-8",
+    "description": "Fantasy console for making, sharing and playing tiny games and other computer programs.",
+    "url": "https://www.lexaloffle.com/pico-8.php",
+    "image": "https://www.lexaloffle.com/static/img/pico8.png",
+    "tags": ["gamedev", "paid"]
+  },
+  {
+    "id": "itchio",
+    "title": "itch.io",
+    "description": "Open marketplace for indie games.",
+    "url": "https://itch.io/",
+    "image": "https://static.itch.io/images/itchio-textless-black.svg",
+    "tags": ["gamedev", "hosting", "free tier"]
+  },
+  {
+    "id": "hugo",
+    "title": "Hugo",
+    "description": "The world’s fastest framework for building websites.",
+    "url": "https://gohugo.io/",
+    "image": "https://gohugo.io/images/hugo-logo-wide.svg",
+    "tags": ["OSS", "free"]
+  },
+  {
+    "id": "zola",
+    "title": "Zola",
+    "description": "A fast static site generator in a single binary with everything built-in.",
+    "url": "https://www.getzola.org/",
+    "image": "https://www.getzola.org/static/logo.svg",
+    "tags": ["OSS", "free"]
+  },
+  {
+    "id": "forestry",
+    "title": "Forestry.io",
+    "description": "Git-backed CMS for static site generators.",
+    "url": "https://forestry.io/",
+    "image": "https://forestry.io/images/logo.svg",
+    "tags": ["OSS", "hosting", "free tier"]
+  },
+  {
+    "id": "croc",
+    "title": "croc",
+    "description": "Easily and securely send things from one computer to another.",
+    "url": "https://schollz.com/software/croc/",
+    "image": "https://schollz.com/img/croc.png",
+    "tags": ["devops", "OSS", "free"]
+  },
+  {
+    "id": "minio",
+    "title": "MinIO",
+    "description": "High Performance Object Storage released under GNU AGPL v3.",
+    "url": "https://min.io/",
+    "image": "https://min.io/resources/img/logo.svg",
+    "tags": ["OSS", "hosting", "free tier"]
+  },
+  {
+    "id": "syncthing",
+    "title": "Syncthing",
+    "description": "Continuous file synchronization program.",
+    "url": "https://syncthing.net/",
+    "image": "https://syncthing.net/images/logo-horizontal.svg",
+    "tags": ["OSS", "free"]
+  },
+  {
+    "id": "cryptomator",
+    "title": "Cryptomator",
+    "description": "Free client-side encryption for your cloud files.",
+    "url": "https://cryptomator.org/",
+    "image": "https://cryptomator.org/img/logo.svg",
+    "tags": ["OSS", "free"]
+  },
+  {
+    "id": "turtl",
+    "title": "Turtl",
+    "description": "The secure, open source Evernote alternative.",
+    "url": "https://turtlapp.com/",
+    "image": "https://turtlapp.com/img/logo.svg",
+    "tags": ["notes", "OSS", "free tier"]
+  },
+  {
+    "id": "fossil",
+    "title": "Fossil",
+    "description": "Distributed version control system featuring integrated bug tracking, wiki, and web interface.",
+    "url": "https://fossil-scm.org/",
+    "image": "https://fossil-scm.org/fossil/doc/trunk/www/fossil-logo.svg",
+    "tags": ["OSS", "collaboration", "free"]
+  },
+  {
+    "id": "redbean",
+    "title": "redbean",
+    "description": "An instant web server in a single executable.",
+    "url": "https://redbean.dev/",
+    "image": "https://redbean.dev/redbean.png",
+    "tags": ["OSS", "free"]
+  },
+  {
+    "id": "browsh",
+    "title": "Browsh",
+    "description": "A fully-modern text-based browser.",
+    "url": "https://www.brow.sh/",
+    "image": "https://www.brow.sh/img/logo.svg",
+    "tags": ["OSS", "free"]
+  },
+  {
+    "id": "qutebrowser",
+    "title": "qutebrowser",
+    "description": "A keyboard-focused browser with a minimal GUI.",
+    "url": "https://qutebrowser.org/",
+    "image": "https://qutebrowser.org/static/img/logo.png",
+    "tags": ["OSS", "free"]
+  },
+  {
+    "id": "sioyek",
+    "title": "Sioyek",
+    "description": "A PDF viewer designed for reading research papers and technical books.",
+    "url": "https://sioyek.info/",
+    "image": "https://sioyek.info/images/logo.png",
+    "tags": ["OSS", "free"]
+  },
+  {
+    "id": "lazygit",
+    "title": "lazygit",
+    "description": "Simple terminal UI for git commands.",
+    "url": "https://github.com/jesseduffield/lazygit",
+    "image": "https://raw.githubusercontent.com/jesseduffield/lazygit/master/docs/logo.png",
+    "tags": ["devops", "OSS", "free"]
+  },
+  {
+    "id": "glow",
+    "title": "Glow",
+    "description": "Render markdown on the CLI, with pizzazz!",
+    "url": "https://github.com/charmbracelet/glow",
+    "image": "https://github.com/charmbracelet/glow/raw/main/logo.png",
+    "tags": ["docs", "OSS", "free"]
+  },
+  {
+    "id": "ripgrep",
+    "title": "ripgrep",
+    "description": "A line-oriented search tool that recursively searches your current directory for a regex pattern.",
+    "url": "https://github.com/BurntSushi/ripgrep",
+    "image": "https://raw.githubusercontent.com/BurntSushi/ripgrep/master/doc/logo.png",
+    "tags": ["devops", "OSS", "free"]
+  },
+  {
+    "id": "fd",
+    "title": "fd",
+    "description": "A simple, fast and user-friendly alternative to 'find'.",
+    "url": "https://github.com/sharkdp/fd",
+    "image": "https://raw.githubusercontent.com/sharkdp/fd/master/doc/fd-logo.png",
+    "tags": ["devops", "OSS", "free"]
+  },
+  {
+    "id": "bat",
+    "title": "bat",
+    "description": "A cat(1) clone with wings.",
+    "url": "https://github.com/sharkdp/bat",
+    "image": "https://raw.githubusercontent.com/sharkdp/bat/master/assets/bat-logo.png",
+    "tags": ["devops", "OSS", "free"]
+  },
+  {
+    "id": "storybook",
+    "title": "Storybook",
+    "description": "UI development environment for your UI components.",
+    "url": "https://storybook.js.org/",
+    "image": "https://storybook.js.org/images/icon-storybook.png",
+    "tags": ["react", "ui", "free"]
+  },
+  {
+    "id": "react-devtools",
+    "title": "React DevTools",
+    "description": "Official React debugging tools for Chrome, Firefox, and more.",
+    "url": "https://react.dev/tools",
+    "image": "https://react.dev/images/logo.svg",
+    "tags": ["react", "ui", "free"]
+  },
+  {
+    "id": "hoppscotch",
+    "title": "Hoppscotch",
+    "description": "Open source API development ecosystem.",
+    "url": "https://hoppscotch.io/",
+    "image": "https://hoppscotch.io/icon.png",
+    "tags": ["api", "testing", "free"]
+  },
+  {
+    "id": "insomnia",
+    "title": "Insomnia",
+    "description": "API design platform and REST client.",
+    "url": "https://insomnia.rest/",
+    "image": "https://insomnia.rest/images/insomnia-logo.svg",
+    "tags": ["api", "testing", "free tier"]
+  },
+  {
+    "id": "swagger",
+    "title": "Swagger Editor",
+    "description": "Design, describe, and document RESTful APIs.",
+    "url": "https://editor.swagger.io/",
+    "image": "https://swagger.io/img/logo.svg",
+    "tags": ["api", "docs", "free"]
+  },
+  {
+    "id": "readthedocs",
+    "title": "Read the Docs",
+    "description": "Documentation hosting platform.",
+    "url": "https://readthedocs.org/",
+    "image": "https://readthedocs.org/static/images/logo-wordmark-light.svg",
+    "tags": ["docs", "OSS", "free tier"]
+  },
+  {
+    "id": "mkdocs",
+    "title": "MkDocs",
+    "description": "Project documentation with Markdown.",
+    "url": "https://www.mkdocs.org/",
+    "image": "https://www.mkdocs.org/img/favicon.ico",
+    "tags": ["docs", "OSS", "free"]
+  },
+  {
+    "id": "audionotes",
+    "title": "AudioNotes",
+    "description": "Transcribe and organize your audio notes.",
+    "url": "https://audionotes.app/",
+    "image": "https://audionotes.app/favicon.ico",
+    "tags": ["audio", "productivity", "free tier"]
+  },
+  {
+    "id": "ocenaudio",
+    "title": "Ocenaudio",
+    "description": "Easy, fast and functional audio editor.",
+    "url": "https://www.ocenaudio.com/",
+    "image": "https://www.ocenaudio.com/img/logo.png",
+    "tags": ["audio", "free"]
+  },
+  {
+    "id": "openshot",
+    "title": "OpenShot Video Editor",
+    "description": "Free, open-source video editor.",
+    "url": "https://www.openshot.org/",
+    "image": "https://www.openshot.org/static/files/logo/logo-square.png",
+    "tags": ["video", "OSS", "free"]
+  },
+  {
+    "id": "vidcutter",
+    "title": "VidCutter",
+    "description": "Simple tool for cutting and joining video clips.",
+    "url": "https://vidcutter.github.io/",
+    "image": "https://vidcutter.github.io/images/vidcutter-logo.png",
+    "tags": ["video", "OSS", "free"]
+  },
+  {
+    "id": "pycharm",
+    "title": "PyCharm",
+    "description": "Python IDE for professional developers.",
+    "url": "https://www.jetbrains.com/pycharm/",
+    "image": "https://resources.jetbrains.com/storage/products/pycharm/img/meta/pycharm_logo_300x300.png",
+    "tags": ["IDE", "paid"]
+  },
+  {
+    "id": "eclipse",
+    "title": "Eclipse IDE",
+    "description": "Popular open source IDE for Java and more.",
+    "url": "https://www.eclipse.org/ide/",
+    "image": "https://www.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-ide.svg",
+    "tags": ["IDE", "OSS", "free"]
+  },
+  {
+    "id": "dbeaver",
+    "title": "DBeaver",
+    "description": "Universal database tool and SQL client.",
+    "url": "https://dbeaver.io/",
+    "image": "https://dbeaver.io/wp-content/uploads/2017/11/logo.png",
+    "tags": ["database", "OSS", "free tier"]
+  },
+  {
+    "id": "sqlitebrowser",
+    "title": "DB Browser for SQLite",
+    "description": "High quality, visual, open source tool to create, design, and edit database files.",
+    "url": "https://sqlitebrowser.org/",
+    "image": "https://sqlitebrowser.org/images/sqlitebrowser_logo.png",
+    "tags": ["database", "OSS", "free"]
+  }
+]

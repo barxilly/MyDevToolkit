@@ -13,67 +13,15 @@ import {
   Title,
 } from "@mantine/core";
 import { TiPin, TiPinOutline } from "react-icons/ti";
-import { useState } from "react";
+import { useState, useMemo } from "react";
+import toolsData from "./tools.json";
 
 function App() {
-  const tools = [
-    {
-      id: "kenney-assets",
-      title: "Kenney's Game Assets",
-      description: "A collection of free game assets.",
-      url: "https://www.kenney.nl/",
-      image:
-        "https://64.media.tumblr.com/03412bbed4b2093cd5b8410ffca141ad/tumblr_ovqahxG3aO1th5bfvo1_1280.png",
-      tags: ["gamedev", "free"],
-    },
-    {
-      id: "mantine",
-      title: "Mantine",
-      description: "A React UI component library with many items.",
-      url: "https://mantine.dev/",
-      image:
-        "https://miro.medium.com/v2/resize:fit:1400/1*faSvT2rE67paB7VALQLvyA.png",
-      tags: ["react", "ui", "free", "OSS"],
-    },
-    {
-      id: "aseprite",
-      title: "Aseprite",
-      description: "A pixel art tool for creating 2D animations and sprites.",
-      url: "https://www.aseprite.org/",
-      image:
-        "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/431730/capsule_616x353.jpg?t=1749680273",
-      tags: ["art", "gamedev", "paid", "OSS"],
-    },
-    {
-      id: "visual-studio-code",
-      title: "Visual Studio Code",
-      description: "A powerful code editor with support for many languages.",
-      url: "https://code.visualstudio.com/",
-      image:
-        "https://learn.microsoft.com/en-us/shows/visual-studio-code/media/visual-studio-code-banner-image.jpg",
-      tags: ["IDE", "free"],
-    },
-    {
-      id: "unity",
-      title: "Unity",
-      description: "A cross-platform game engine for creating 2D and 3D games.",
-      url: "https://unity.com/",
-      image:
-        "https://dotnet.microsoft.com/blob-assets/images/illustrations/unity/unity-engine-landscape-swimlane.png",
-      tags: ["gamedev", "free tier"],
-    },
-    {
-      id: "blender",
-      title: "Blender",
-      description: "An open-source 3D creation suite.",
-      url: "https://www.blender.org/",
-      image: "https://i.ebayimg.com/images/g/L4EAAOSwT-VnXWaP/s-l1200.jpg",
-      tags: ["art", "gamedev", "free", "OSS"],
-    },
-  ];
+  const tools = useMemo(() => toolsData, []);
 
   const [pinned, setPinned] = useState<string[]>([]);
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
+  const [expandedDesc, setExpandedDesc] = useState<string | null>(null);
 
   let allTags = Array.from(new Set(tools.flatMap((tool) => tool.tags)));
 
@@ -116,13 +64,15 @@ function App() {
     onGo: () => void;
     showTags?: boolean;
   }) {
+    const isExpanded = expandedDesc === tool.id;
+    const truncated = tool.description.length > 27 && !isExpanded;
     return (
       <Card>
         <Card.Section>
           <img
             src={tool.image}
             alt={tool.title}
-            style={{ width: "100%", aspectRatio: "16/9 !important" }}
+            style={{ width: "100%", height:"10em", aspectRatio: "16/9 !important" }}
           />
         </Card.Section>
         <Space h="sm" />
@@ -137,14 +87,38 @@ function App() {
           </Group>
         )}
         <Text
-          style={{
-            overflow: "hidden",
-            textOverflow: "ellipsis",
-            height: "60px",
-          }}
+          style={
+            truncated
+              ? {
+                  overflow: "hidden",
+                  textOverflow: "ellipsis",
+                  display: "-webkit-box",
+                  WebkitLineClamp: 1,
+                  WebkitBoxOrient: "vertical",
+                  cursor: "pointer",
+                  height: "24px",
+                }
+              : { cursor: "pointer" }
+          }
+          onClick={() =>
+            setExpandedDesc(isExpanded ? null : tool.id)
+          }
+          title={truncated ? tool.description : undefined}
         >
-          {tool.description}
+          {truncated
+            ? tool.description.slice(0, 27) + "..."
+            : tool.description}
         </Text>
+        {tool.description.length > 27 && (
+          <Text
+            size="xs"
+            color="blue"
+            style={{ cursor: "pointer", userSelect: "none" }}
+            onClick={() => setExpandedDesc(isExpanded ? null : tool.id)}
+          >
+            {isExpanded ? "Show less" : "Show more"}
+          </Text>
+        )}
         <Space h="sm" />
         <Flex>
           <Button onClick={onGo} w="100%">
